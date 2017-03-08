@@ -1091,7 +1091,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/map.png");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1268,6 +1268,8 @@
 				line-height: 2;
 			}
 
+		/* This section affects the buttons */
+
 		#header nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -1282,19 +1284,20 @@
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 0px #ffffff;
 			}
 
 				#header nav ul li:first-child {
 					border-left: 0;
 				}
 
+
 				#header nav ul li a {
-					display: block;
+					display: flex;
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 0 2rem 0 3rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
@@ -1315,7 +1318,7 @@
 			position: absolute;
 			top: 0;
 			left: calc(50% - 1px);
-			width: 1px;
+			width: 0px;
 			height: 100%;
 			background: #ffffff;
 		}
@@ -1571,8 +1574,8 @@
 
 		#footer .copyright {
 			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
-			opacity: 0.75;
+			font-size: 1rem;
+			opacity: 1;
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
